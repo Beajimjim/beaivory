@@ -19,21 +19,44 @@ Este proyecto implementa un sistema de bloqueo automático de IPs en un servidor
 - **JavaScript (Chart.js, Socket.io)**: Para el Dashboard en tiempo real.
 - **HTML y CSS (Bootstrap)**: Para la interfaz web.
 
-## Estructura del Proyecto
-.
-├── app.py                # Servidor Flask principal
-├── templates/
-│   ├── index.html        # Página principal
-│   ├── dashboard.html    # Panel de control con gráficos en tiempo real
-│   └── results.html      # Página de resultados del script de bloqueo
-├── static/
-│   ├── styles.css        # Estilos CSS
-│   └── script.js         # Script de actualización en tiempo real
-├── ivory.py              # Script de bloqueo importado
-├── client_config.json    # Configuración del cliente
-├── server_config.json    # Configuración del servidor
-├── .htaccess             # Archivo donde se bloquean las IPs
-└── access.log            # Logs de acceso de Apache
+Estructura del Proyecto
+
+app.py  
+Servidor Flask principal
+
+templates/  
+    index.html  
+    Página principal  
+
+    dashboard.html  
+    Panel de control con gráficos en tiempo real  
+
+    results.html  
+    Página de resultados del script de bloqueo  
+
+static/  
+    styles.css  
+    Estilos CSS  
+
+    script.js  
+    Script de actualización en tiempo real  
+
+ivory.py  
+Script de bloqueo importado  
+
+client_config.json  
+Configuración del cliente  
+
+server_config.json  
+Configuración del servidor  
+
+.htaccess  
+Archivo donde se bloquean las IPs  
+
+access.log  
+Logs de acceso de Apache  
+
+
 ## Instalación y Configuración
 
 ### 1. Clonar el Repositorio
