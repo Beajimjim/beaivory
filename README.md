@@ -21,6 +21,7 @@ Este proyecto implementa un sistema de bloqueo automático de IPs en un servidor
 
 ## Estructura del Proyecto
 .
+.
 ├── app.py                # Servidor Flask principal
 ├── templates/
 │   ├── index.html        # Página principal
@@ -34,7 +35,6 @@ Este proyecto implementa un sistema de bloqueo automático de IPs en un servidor
 ├── server_config.json    # Configuración del servidor
 ├── .htaccess             # Archivo donde se bloquean las IPs
 └── access.log            # Logs de acceso de Apache
-
 
 ## Instalación y Configuración
 
